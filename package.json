@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sSsXzZz/Personal-Website.git"
+  },
+  "author": "Shalin Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sSsXzZz/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/sSsXzZz/Personal-Website#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
