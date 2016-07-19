@@ -1,5 +1,10 @@
+body {
+	margin: 0;
+}
+
 header {
 	background-color: #222;
+	height: 40px;
 }
 
 .container {
@@ -23,18 +28,17 @@ header {
 	line-height: 40px;
 }
 
+.navbar a {
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
 .navbar a:hover {
 	background-color: #636363;
 }
 
-.navbar a.active {
-	background-color: #fff;
-}
-
-.navbar__entry {
-	color: white;
-	padding: 14px 16px;
-	text-decoration: none;
+.navbar__entry.active {
+	border-bottom: 3px solid #4CAF50;
 }
 
 @media screen and (min-width: 600px) {
