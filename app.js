@@ -8,7 +8,6 @@ app.use(express.static('public'));
 
 app.get('/*', function(req,res) {
 	var view = req.url === '/' ? 'index' : req.url;
-	console.log(view);
 	res.render( path.join('pages/', view) );
 });
 
