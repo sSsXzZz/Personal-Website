@@ -7,6 +7,9 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/*', function(req,res) {
+	var checkFavicon = req.url.match(/favicon/);
+	if (checkFavicon) return;
+
 	var view = ( req.url === '/'
 		? 'index'
 		: req.url
